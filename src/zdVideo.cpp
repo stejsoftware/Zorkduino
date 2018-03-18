@@ -18,7 +18,7 @@
 
 #include "ztypes.h"
 
-__attribute__((section(".progmem.data")))
+//__attribute__((section(".progmem.data")))
 const unsigned char atascii[] = {
 #include "zdFont.h"  // SWIZZLED ATARI FONT
 #include "zdLogofont.h"  // Zork logo
@@ -51,7 +51,7 @@ const unsigned char atascii[] = {
 
 // does not do halfline sync during blanking
 __attribute__((section(".progmem.data")))
-prog_char v_lines[] = { 3,BLANK_LINES,ACTIVE_LINES,262-(3+BLANK_LINES+ACTIVE_LINES) };
+char v_lines[] = { 3,BLANK_LINES,ACTIVE_LINES,262-(3+BLANK_LINES+ACTIVE_LINES) };
 
 // Video State
 uint8_t v_state = 0;

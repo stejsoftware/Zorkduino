@@ -75,7 +75,7 @@ uint32_t sector_mem_start;
 // this gives a rough estimate of stack mem
 //#define DEBUG_STACK
 #ifdef DEBUG_STACK
-prog_char _hex[] PROGMEM = "0123456789ABCDEF";
+char _hex[] PROGMEM = "0123456789ABCDEF";
 void hex(uint16_t n, uint8_t x = 0)
 {
   uint8_t i = 4;

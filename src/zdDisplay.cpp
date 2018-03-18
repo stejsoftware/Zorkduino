@@ -26,7 +26,7 @@ void initialize_screen()
         _fdata[x] = ' ' ^ 0x80;
 }
 
-void write_string( const prog_char *s );
+void write_string( const char *s );
 
 void pre_input_line();
 void write_char(int c);

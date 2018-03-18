@@ -1043,8 +1043,8 @@ void new_line ()
  *
  */
 
-prog_char s_am[] PROGMEM = " am";
-prog_char s_pm[] PROGMEM = " pm";
+PROGMEM const char s_am[] = " am";
+PROGMEM const char s_pm[] = " pm";
 
 #ifdef __STDC__
 void print_time (int hours, int minutes)

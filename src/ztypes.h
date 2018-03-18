@@ -29,7 +29,10 @@
 #include <stdlib.h>
 #include <string.h>
 #include <stdint.h>
+
+#ifdef __linux__
 #include <execinfo.h>
+#endif
 
 #ifdef ARDUINO
 #include <Arduino.h>
@@ -37,7 +40,7 @@
 #define PROGMEM __attribute__((section(".progmem.data")))
 #else
 #define PROGMEM
-#define prog_char char
+#define char char
 #define pgm_read_byte(_x) *(_x)
 #define strcpy_P strcpy
 #endif

@@ -7,13 +7,13 @@
 
 #include "ztypes.h"
 
-const prog_char v1_lookup_table[] PROGMEM = {
+const char v1_lookup_table[] PROGMEM = {
     "abcdefghijklmnopqrstuvwxyz"
     "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
     " 0123456789.,!?_#'\"/\\<-:()"
 };
 
-const prog_char v3_lookup_table[] PROGMEM = {
+const char v3_lookup_table[] PROGMEM = {
     "abcdefghijklmnopqrstuvwxyz"
     "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
     " \n0123456789.,!?_#'\"/\\-:()"

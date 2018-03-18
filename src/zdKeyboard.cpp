@@ -33,8 +33,8 @@ uint8_t readKey();
 void keyboardIREvent(uint8_t t, uint8_t v); // t is HSYNCH ticks, v is value
 
 // missing some keys, plenty for zork
-__attribute__((section(".progmem.data")))
-const prog_char _keymap[]  =
+//__attribute__((section(".progmem.data")))
+const char _keymap[]  =
 {
   // keys
   0x00,0x00,0x62,0x00,0x00,0x1D,0x00,0x00,0x00,0x1E,0x00,0x2F,0x00,0x1F,0x20,0x6E,
