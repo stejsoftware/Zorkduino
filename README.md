@@ -1,4 +1,4 @@
-# Zorkduino
+# Zorkduino [![Build Status](https://travis-ci.org/stejsoftware/Zorkduino.svg?branch=master)](https://travis-ci.org/stejsoftware/Zorkduino)
 
 ### Play Zork on your TV with an Arduino.
 
@@ -83,7 +83,7 @@ Samples of  Zork I, Leather Goddesses of Phobos, and Trinity
 `minizork.z3`
 A nice big chunk of Zork I that was given away with the British Commodore users' magazine "Zzap! 64" no. 67. in 1990.
 
-Copy these files to a freshly formatted sd or microsd card. You can find lots of other Zorkduino compatible games at the [Interactive Fiction Archive](http://www.ifarchive.org/). Insert the card and run the `zorkduino.ino` sketch from the [`zorkduino`](https://github.com/rossumur/Zorkduino/tree/master/zorkduino) folder. When it is all up and running, it should look like this (depending on how many games you found):
+Copy these files to a freshly formatted sd or microsd card. You can find lots of other Zorkduino compatible games at the [Interactive Fiction Archive](http://www.ifarchive.org/). Insert the card and run the `zorkduino.ino` sketch from the [`zorkduino`](.) folder. When it is all up and running, it should look like this (depending on how many games you found):
 
 [![image](https://img.youtube.com/vi/-4dWXJrqxUk/0.jpg)](https://www.youtube.com/watch?feature=player_embedded&v=-4dWXJrqxUk)
 
