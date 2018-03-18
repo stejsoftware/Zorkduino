@@ -29,9 +29,9 @@ Then in `src/main.c` you should use:
 ```c
 #include <Foo.h>
 #include <Bar.h>
-```
 
 // rest H/C/CPP code
+```
 
 PlatformIO will find your libraries automatically, configure preprocessor's
 include paths and build them.
