@@ -1,5 +1,9 @@
 # Zorkduino [![Build Status](https://travis-ci.org/stejsoftware/Zorkduino.svg?branch=master)](https://travis-ci.org/stejsoftware/Zorkduino)
 
+## links
+
+* http://inform-fiction.org/zmachine/standards/z1point1/index.html
+
 ### Play Zork on your TV with an Arduino.
 
 Who doesn’t love Zork?. Who doesn’t love Arduinos? Why not grab a few cheap components and build an Arduino gadget capable of playing all the classic Infocom games on your TV from the comfort of your couch.
